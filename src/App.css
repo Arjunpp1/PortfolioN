@@ -1,0 +1,13 @@
+/* App.css */
+.global-dynamic-glow {
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(78, 205, 196, 0.12) 0%, rgba(247, 183, 49, 0.06) 40%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  transition: left 0.08s ease, top 0.08s ease;
+  filter: blur(40px);
+}
