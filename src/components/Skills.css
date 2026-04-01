@@ -87,3 +87,19 @@
   opacity: 1;
   box-shadow: 0 0 8px var(--accent-primary);
 }
+
+@media (max-width: 480px) {
+  .skill-card {
+    padding: 1.5rem;
+  }
+
+  .skill-title {
+    font-size: 1.1rem;
+  }
+
+  .skill-icon-wrapper {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 1rem;
+  }
+}

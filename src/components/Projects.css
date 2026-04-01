@@ -98,3 +98,17 @@
   border-color: rgba(78, 205, 196, 0.2);
   color: var(--accent-primary);
 }
+
+@media (max-width: 480px) {
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+  }
+
+  .project-points li {
+    font-size: 0.95rem;
+  }
+}

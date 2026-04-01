@@ -128,3 +128,39 @@
   box-shadow: 0 8px 30px rgba(0,0,0,0.4), 0 0 20px rgba(78, 205, 196, 0.06);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .education-card {
+    padding: 1.5rem;
+  }
+
+  .about-grid {
+    gap: 2rem;
+  }
+}

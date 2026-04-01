@@ -70,13 +70,31 @@
 }
 
 @media (max-width: 768px) {
-  .pill-nav {
-    position: fixed;
-    bottom: 1.5rem;
+  .pill-nav-container {
     top: auto;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 1.5rem;
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  .pill-nav {
     width: auto;
-    max-width: 95%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pill-nav-container {
+    bottom: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .pill-nav {
+    max-width: 100%;
+  }
+
+  .nav-link {
+    padding: 0.4rem 0.65rem;
+    font-size: 0.78rem;
   }
 }
